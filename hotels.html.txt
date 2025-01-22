@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hotel Rentals Across the USA - Cheap Flightly">
+    <title>Hotel Rentals - Cheap Flightly</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>Cheap Flightly</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="flights.html">Flight Booking</a></li>
+                <li><a href="cars.html">Car Rentals</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hotel Booking Details -->
+    <section id="hotel-booking">
+        <div class="container">
+            <h2>Hotel Room Rentals</h2>
+            <p>Rent hotel rooms in any state across the USA, from New York to Hawaii. We have partnerships with top hotel chains to bring you the best prices.</p>
+
+            <form action="booking.html" method="GET">
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" required>
+
+                <label for="check-in">Check-In Date:</label>
+                <input type="date" id="check-in" name="check-in" required>
+
+                <label for="check-out">Check-Out Date:</label>
+                <input type="date" id="check-out" name="check-out" required>
+
+                <button type="submit">Search Hotels</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Cheap Flightly. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

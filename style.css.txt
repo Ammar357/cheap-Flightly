@@ -1,0 +1,166 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background-color: #009688; /* Teal color */
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 2em;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* Main Search Section */
+#search {
+    background-color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#search .container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#search h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#search form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#search input, #search button {
+    padding: 12px;
+    margin: 10px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1em;
+}
+
+#search button {
+    background-color: #009688;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#search button:hover {
+    background-color: #00796b;
+}
+
+/* Flight Results Section */
+#results {
+    background-color: #eeeeee;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#results .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#results .flight {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    width: 30%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+#results .flight button {
+    background-color: #009688;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#results .flight button:hover {
+    background-color: #00796b;
+}
+
+/* Booking Form Section */
+#booking {
+    background-color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#booking .container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#booking form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#booking input, #booking select, #booking button {
+    padding: 12px;
+    margin: 10px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1em;
+}
+
+#booking button {
+    background-color: #009688;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#booking button:hover {
+    background-color: #00796b;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

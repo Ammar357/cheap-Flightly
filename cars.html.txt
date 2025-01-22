@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Car Rentals Across the USA - Cheap Flightly">
+    <title>Car Rentals - Cheap Flightly</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>Cheap Flightly</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="flights.html">Flight Booking</a></li>
+                <li><a href="hotels.html">Hotel Rentals</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Car Rental Details -->
+    <section id="car-rentals">
+        <div class="container">
+            <h2>Car Rental Services</h2>
+            <p>We offer rental cars in all 50 states, including popular cities like New York, Los Angeles, Miami, and Chicago. Rent a car with ease and travel across the USA!</p>
+            <p>Book your car with us at the best prices.</p>
+
+            <form action="booking.html" method="GET">
+                <label for="pickup-location">Pick-Up Location:</label>
+                <input type="text" id="pickup-location" name="pickup-location" required>
+
+                <label for="pickup-date">Pick-Up Date:</label>
+                <input type="date" id="pickup-date" name="pickup-date" required>
+
+                <label for="return-location">Return Location:</label>
+                <input type="text" id="return-location" name="return-location" required>
+
+                <label for="return-date">Return Date:</label>
+                <input type="date" id="return-date" name="return-date" required>
+
+                <button type="submit">Search Cars</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Cheap Flightly. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

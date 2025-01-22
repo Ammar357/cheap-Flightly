@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cheap Flightly - Affordable flight, car rental, and hotel booking services across the USA">
+    <title>Cheap Flightly - Affordable Travel Services</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>Cheap Flightly</h1>
+            <p>Your One-Stop Destination for Affordable Flight, Car Rentals, and Hotel Bookings</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="flights.html">Flight Booking</a></li>
+                <li><a href="cars.html">Car Rentals</a></li>
+                <li><a href="hotels.html">Hotel Rentals</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+    <section id="main">
+        <div class="container">
+            <h2>Welcome to Cheap Flightly</h2>
+            <p>We offer the best and cheapest flight booking, rental car, and hotel room services all across the United States.</p>
+            <p>We work with top service providers to offer you amazing prices on:</p>
+            <ul>
+                <li>Flight bookings from anywhere in the USA</li>
+                <li>Car rentals in all 50 states</li>
+                <li>Hotel room rentals anywhere in the USA</li>
+            </ul>
+            <p>Our goal is to make your travel experience easy and affordable!</p>
+        </div>
+    </section>
+
+    <!-- Flight Booking Section -->
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service">
+                <h3>Flight Booking</h3>
+                <p>Book affordable flights from anywhere in the USA. We offer national flight bookings to any major city across the country at unbeatable prices.</p>
+                <a href="flights.html">Explore Flights</a>
+            </div>
+
+            <div class="service">
+                <h3>Car Rentals</h3>
+                <p>Rent a car anywhere in the USA, from New York to California. Our rental cars are available in all 50 states, offering you flexibility and convenience.</p>
+                <a href="cars.html">Rent a Car</a>
+            </div>
+
+            <div class="service">
+                <h3>Hotel Rentals</h3>
+                <p>Find hotel rooms across the USA at the most affordable rates. We provide booking options in all 50 states, ensuring you a comfortable stay no matter where you go.</p>
+                <a href="hotels.html">Find a Hotel</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Cheap Flightly. All rights reserved. Best prices for flight bookings, car rentals, and hotel rooms across the USA.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
